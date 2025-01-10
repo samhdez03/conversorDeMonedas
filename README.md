@@ -45,9 +45,10 @@ Gracias por usar el conversor, ¡vuelve pronto!
 ## Instalación y Configuración
 
 1. Clona este repositorio:
-   ```
+```
 git clone https://github.com/samhdez03/conversorDeMonedas.git
-   ```
+```
+
 2. Abre el proyecto en tu IDE favorito (como IntelliJ IDEA o Eclipse).
 3. Asegúrate de tener configurado Java 11 o superior.
 4. Agrega la librería Gson al proyecto (puedes usar Maven o agregar el JAR manualmente).
