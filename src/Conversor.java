@@ -10,12 +10,11 @@ public class Conversor {
         var key= "aa47ceecea6eb2589a0f2391";
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/"+key+"/pair/"+original+"/"+convertir+"/"+cantidad);
         HttpClient client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(direccion)
+                .build();
 
         try {
-
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(direccion)
-                    .build();
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
             return new Gson().fromJson(response.body(), Divisas.class);
