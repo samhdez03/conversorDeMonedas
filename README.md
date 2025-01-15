@@ -65,8 +65,8 @@ Este proyecto está licenciado bajo la [Licencia MIT](LICENSE). Siéntete libre 
 ## Contacto
 
 Si tienes preguntas o necesitas ayuda, no dudes en contactarnos:
-- **Correo**: samhercab@gmail.com
-- **GitHub**: [https://github.com/samhdez0](https://github.com/samhdez03/conversorDeMonedas.git)
+- **LinkedIn**: www.linkedin.com/in/samantha-hernandez-caballero
+- **GitHub**: [https://github.com/samhdez03](https://github.com/samhdez03/conversorDeMonedas.git)
 
 ---
 
